@@ -1,0 +1,61 @@
+body {
+  text-align: center;
+  font-family: monospace;
+}
+
+h1 {
+  letter-spacing: 2px;
+  font-size: 32px;
+}
+
+#board {
+  background-color: blue;
+  display: inline-block;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.col {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-color: white;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.col.empty {
+  cursor: pointer;
+}
+
+.red-target {
+  background-color: rgba(220,20,60,0.8);
+}
+
+.yellow-target {
+  background-color: rgba(255,255,0,0.7);
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red.top, .yellow.top {
+  position: relative;
+  top: -75px;
+  height:50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+#top {
+  text-align: center;
+  top: -75px;
+  height:50px;
+  width: 50px;
+  border-radius: 50%;
+}
